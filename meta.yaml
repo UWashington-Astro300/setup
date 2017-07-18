@@ -1,10 +1,11 @@
 package:
   name: "uwastro300"
-  version: 1.0
+  version: 0.1
 
 requirements:
   run:
     - python
+    - numpy
 
 about:
   summary: This is a simple meta-package for initial class python setup
