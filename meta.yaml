@@ -1,11 +1,19 @@
 package:
   name: "uwastro300"
-  version: 0.1
+  version: 0.2
 
 requirements:
   run:
     - python
     - numpy
+    - matplotlib
+    - scipy
+    - jupyter
+    - astropy
+    - sympy
+    - astroquery
+    - jplephem
+#    - astroplan
 
 about:
   summary: This is a simple meta-package for initial class python setup

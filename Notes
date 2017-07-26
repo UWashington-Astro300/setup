@@ -1,0 +1,33 @@
+
+conda update --all
+conda clean --tarballs --packages
+
+conda install numpy
+conda install scipy
+conda install jupyter
+conda install astropy
+conda install matplotlib
+
+conda install numpy scipy jupyter matplotlib astropy
+
+conda install sympy
+conda install -c astropy astroplan astroquery
+conda install jplephem
+
+####
+
+conda config --add channels astropy
+conda config --add channels tobyrsmith
+conda config --append channels conda-forge
+conda install uwastro300 astroplan
+
+####
+
+conda build .
+
+conda build . --output
+
+anaconda login
+anaconda upload /your/path/conda-package.tar.bz2
+
+conda convert --platform all /path/to/file -o outputdir/
