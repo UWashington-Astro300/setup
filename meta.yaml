@@ -1,6 +1,6 @@
 package:
   name: "uwastro300"
-  version: 0.2
+  version: 0.3
 
 requirements:
   run:
@@ -10,6 +10,7 @@ requirements:
     - scipy
     - jupyter
     - astropy
+    - pandas
     - sympy
     - astroquery
     - jplephem
