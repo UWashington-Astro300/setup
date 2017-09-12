@@ -23,11 +23,12 @@ conda install uwastro300 astroplan
 
 ####
 
-conda build .
 
-conda build . --output
+conda-build .
+conda-build . --output
+
+conda convert --platform all /path/to/file -o outputdir/
 
 anaconda login
 anaconda upload /your/path/conda-package.tar.bz2
 
-conda convert --platform all /path/to/file -o outputdir/
