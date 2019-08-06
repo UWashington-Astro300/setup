@@ -1,6 +1,6 @@
 package:
   name: "uwastro300"
-  version: 0.3
+  version: 0.5
 
 requirements:
   run:
@@ -12,9 +12,10 @@ requirements:
     - astropy
     - pandas
     - sympy
-    - astroquery
-    - jplephem
-#    - astroplan
+#    - astroquery
+#    - jplephem
+    - jupyterlab
+    - seaborn
 
 about:
   summary: This is a simple meta-package for initial class python setup
