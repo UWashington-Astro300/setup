@@ -1,6 +1,6 @@
 package:
   name: "uwastro300"
-  version: 0.5
+  version: 0.6
 
 requirements:
   run:
@@ -16,6 +16,8 @@ requirements:
 #    - jplephem
     - jupyterlab
     - seaborn
+    - altair 
+    - vega_datasets
 
 about:
   summary: This is a simple meta-package for initial class python setup
