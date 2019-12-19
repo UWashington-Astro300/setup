@@ -1,6 +1,6 @@
 package:
   name: "uwastro300"
-  version: 0.75
+  version: 0.8
 
 requirements:
   run:
@@ -19,6 +19,7 @@ requirements:
     - altair 
     - vega_datasets
     - black
+    - nb_black
 
 about:
   summary: This is a simple meta-package for initial class python setup
