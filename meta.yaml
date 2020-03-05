@@ -1,6 +1,6 @@
 package:
   name: "uwastro300"
-  version: 0.9
+  version: 0.99
 
 requirements:
   run:
@@ -14,10 +14,11 @@ requirements:
     - sympy
     - jupyterlab
     - seaborn
-    - altair 
-    - vega_datasets
-    - black
-    - nb_black
+    - pyyaml
+#    - altair 
+#    - vega_datasets
+#    - black
+#    - nb_black
 
 about:
   summary: This is a simple meta-package for initial class python setup
